@@ -1,3 +1,7 @@
+"""
+Please implement the classes ClothingStoreItem and Purchasable below according to the comments. You will need to write documentation.
+"""
+
 
 class ClothingStoreItem:
     # Represents an item on a rack at a clothing store
