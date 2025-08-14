@@ -4,8 +4,13 @@ from q1 import Clothing
 
 from typing import TypeVar, Generic
 
-# Have you ever lost a button and replaced it with a paperclip? 
-# Or rubber duck? Shirts can use almost anything as a button.
+"""
+Have you ever lost a button and replaced it with a paperclip? 
+Or rubber duck? Shirts can use almost anything as a button.
+
+Please implement the Shirt class below according to the comments. You will need to write documentation.
+Don't forget the path above.
+"""
 
 B = TypeVar('B')
 
