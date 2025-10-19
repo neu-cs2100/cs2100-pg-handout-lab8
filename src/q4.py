@@ -30,8 +30,8 @@ class Purchasable(Generic[T]):
     pass
 
 
-# Modify ClothingStoreItem so that it implements Purchasable.
+# Modify ClothingStoreItem so that it extends Purchasable.
 # You may need to move ClothingStoreItem so that it is below Purchasable in the file.
 
 
-# Create another class called FoodStoreItem which also implements Purchasable. Override its __str__() too.
+# Create another class called FoodStoreItem which is Purchasable.
