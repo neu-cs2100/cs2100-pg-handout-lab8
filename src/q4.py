@@ -2,6 +2,8 @@
 Please implement the classes ClothingStoreItem and Purchasable below according to the comments. You will need to write documentation.
 """
 
+from typing import TypeVar, Generic
+
 
 class ClothingStoreItem:
     # Represents an item on a rack at a clothing store
@@ -14,12 +16,12 @@ class ClothingStoreItem:
         # Return a string that includes what the item is, and its price (e.g., "cotton shirt which costs $10.35").
         pass
 
-# Stores like Costco and Target have many departments, of which clothing is one. 
+
+# Stores like Costco and Target have many departments, of which clothing is one.
 # The only thing that all the items have in common is that they have a price.
 
-from typing import TypeVar, Generic
+T = TypeVar("T")
 
-TB = TypeVar('T')
 
 class Purchasable(Generic[T]):
     # Two properties:
